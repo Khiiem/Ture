@@ -1,0 +1,18 @@
+game.StarterGui:SetCore("SendNotification",{
+    Title = "Retard Checking",
+    Text = "Checking...", 
+    Icon = "rbxassetid://10799956104",
+    Duration = 3,
+ })
+ wait(2)
+ game.StarterGui:SetCore("SendNotification",{
+    Title = "Retard Checking",
+    Text = "You Are Retard", 
+    Icon = "rbxassetid://2541869220",
+    Duration = 3,
+ })
+ 
+wait(5)
+while wait(1) do
+  game:shutdown()
+end
